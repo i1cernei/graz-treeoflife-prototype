@@ -2,6 +2,63 @@
   text-align: center;
 }
 
+@font-face {
+  font-family: 'PangeaAfrikan';
+  src: url('./assets/_type/PangeaAfrikan/PangeaAfrikan-Medium.woff') format('woff2'), url('./assets/_type/PangeaAfrikan/PangeaAfrikan-Medium.woff') format('woff');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PangeaAfrikan';
+  src: url('./assets/_type/PangeaAfrikan/PangeaAfrikan-Regular.woff2') format('woff2'), url('./assets/_type/PangeaAfrikan/PangeaAfrikan-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PangeaAfrikan';
+  src: url('./assets/_type/PangeaAfrikan/PangeaAfrikan-Light.woff') format('woff2'), url('./assets/_type/PangeaAfrikan/PangeaAfrikan-Light.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PangeaAfrikan';
+  src: url('./assets/_type/PangeaAfrikan/PangeaAfrikan-LightItalic.woff2') format('woff2'), url('./assets/_type/PangeaAfrikan/PangeaAfrikan-LightItalic.woff') format('woff');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PangeaAfrikan';
+  src: url('./assets/_type/PangeaAfrikan/PangeaAfrikan-Italic.woff2') format('woff2'), url('./assets/_type/PangeaAfrikan/PangeaAfrikan-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PangeaAfrikan';
+  src: url('./assets/_type/PangeaAfrikan/PangeaAfrikan-SemiBold.woff2') format('woff2'), url('./assets/_type/PangeaAfrikan/PangeaAfrikan-SemiBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PangeaAfrikan';
+  src: url('./assets/_type/PangeaAfrikan/PangeaAfrikan-Bold.woff2') format('woff2'), url('./assets/_type/PangeaAfrikan/PangeaAfrikan-Bold.woff') format('woff');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'PangeaAfrikanText';
+  src: url('./assets/_type/PangeaText/PangeaAfrikanText-Medium.woff2') format('woff2'), url('./assets/_type/PangeaText/PangeaAfrikanText-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

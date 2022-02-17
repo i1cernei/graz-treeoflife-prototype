@@ -1,0 +1,93 @@
+.listWrapper {
+  width: 44%;
+  margin-top: 8rem;
+  height: 77.1vh;
+  overflow-y: scroll;
+  position: relative;
+
+  &::before {
+    content: "";
+    // border: 0.8rem solid #33ffa0;
+    // border: 0.1rem solid #ad190f;
+    // filter: blur(1px);
+    // width: 99%;
+    // height: 73.7vh;
+    // position: absolute;
+    // left: 0;
+    // top: 0;
+    // pointer-events: none;
+    // box-sizing: border-box;
+    // z-index: 100;
+
+    content: "";
+    border: 0.4rem solid #ad190f;
+    filter: blur(1px);
+    width: 96.5%;
+    margin-left: 0.8rem;
+    height: 72.8vh;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    pointer-events: none;
+    box-sizing: border-box;
+    z-index: 100;
+    display: none;
+  }
+}
+
+.Taxalist {
+  list-style: none;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  display: flex;
+  flex-flow: column;
+  font-size: 4rem;
+  font-family: "PangeaAfrikan", sans-serif;
+  // color: #090822;
+  // color: #33ffa0;
+  color: #cdeaff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 0;
+  text-transform: uppercase;
+  justify-content: flex-start;
+  height: 100%;
+  align-items: center;
+  z-index: 0;
+
+
+  li {
+    filter: blur(0.8px);
+    margin-top: -1rem;
+    transition: transform 0.75s cubic-bezier(.32,1.06,.86,.74) 0.035s, filter 0.75s cubic-bezier(.32,1.06,.86,.74) 0.035s;
+    // transition:
+
+
+    &:hover {
+      filter: blur(0.34px);
+      transform-origin: 50% 50%;
+      transform: scale(1.15);
+    }
+  }
+}
+
+.test-enter {
+  opacity: 0.01;
+}
+
+.test-enter.test-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.test-exit {
+  opacity: 1;
+}
+
+.test-exit.test-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+

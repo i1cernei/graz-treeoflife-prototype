@@ -1,0 +1,17 @@
+.Taxa {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding-left: 1.9vw;
+  padding-right: 8vw;
+}
+
+.reactPlayer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: auto !important;
+  z-index: -290;
+}
